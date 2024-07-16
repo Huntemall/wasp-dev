@@ -1,0 +1,1131 @@
+repo_name: Huntemall/wasp-dev
+report_id: 1083bade106c6ffb06c9135508d0d450
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-16T10:10:21+00:00'
+requested_by: Martinsos
+provider: github
+branch: dev
+detected_tools_count: 80
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Huntemall/wasp-dev
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/examples/realworld/migrations/20210419141442_/migration.sql
+  detection_source: examples/realworld/migrations/20210419141442_/migration.sql
+  last_updated_by: Martin Šošić
+  last_updated_on: 2021-04-21 12:06:25.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/Huntemall/wasp-dev
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package.json
+  detection_source: project-page/package.json
+  last_updated_by: Matija Sosic
+  last_updated_on: 2022-10-24 08:43:21.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2023-03-14 18:04:51.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 12.3.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package-lock.json
+  detection_source: project-page/package.json
+  last_updated_by: Matija Sosic
+  last_updated_on: 2022-10-24 08:43:21.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/data/Generator/templates/Dockerfile
+  detection_source: waspc/data/Generator/templates/Dockerfile
+  last_updated_by: Martin Šošić
+  last_updated_on: 2021-02-03 18:26:14.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package.json
+  detection_source: project-page/package.json
+  last_updated_by: Matija Sosic
+  last_updated_on: 2022-10-24 08:43:21.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package-lock.json
+  detection_source: examples/realworld/src/client/MainPage.jsx
+  last_updated_by: Martin Sosic
+  last_updated_on: 2020-11-27 21:52:38.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  last_updated_by: Mihovil Ilakovac
+  last_updated_on: 2023-09-12 11:19:47.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.0.5
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspComplexTest-golden/waspComplexTest/.wasp/out/server/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspComplexTest-golden/waspComplexTest/.wasp/out/server/package.json
+  last_updated_by: Mihovil Ilakovac
+  last_updated_on: 2023-03-02 14:05:24.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package.json
+  detection_source: project-page/package.json
+  last_updated_by: Matija Sosic
+  last_updated_on: 2022-10-24 08:43:21.000000000 Z
+- name: Prisma
+  description: Modern Database Access for TypeScript &amp; Node.js
+  website_url: https://www.prisma.io/
+  version: 4.12.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/8680/Logo_Symbol_White.jpg
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/headless-test/package-lock.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Martin Sosic
+  last_updated_on: 2023-04-07 16:15:02.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.22.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/packages/ts-inspect/package-lock.json
+  detection_source: web/babel.config.js
+  last_updated_by: Martin Sosic
+  last_updated_on: 2021-07-23 12:45:27.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Martin Šošić
+  last_updated_on: 2023-04-05 09:33:52.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package.json
+  detection_source: project-page/package.json
+  last_updated_by: Matija Sosic
+  last_updated_on: 2022-10-24 08:43:21.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/.github/workflows/ci.yaml
+  detection_source: ".github/workflows/ci.yaml"
+  last_updated_by: Craig McIlwrath
+  last_updated_on: 2023-07-07 12:21:33.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/packages/ts-inspect/package-lock.json
+  detection_source: waspc/packages/ts-inspect/package.json
+  last_updated_by: Craig McIlwrath
+  last_updated_on: 2023-06-22 19:37:07.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2022-03-01 20:42:31.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/yarn.lock
+  detection_source: project-page/yarn.lock
+  last_updated_by: Matija Sosic
+  last_updated_on: 2022-10-24 08:43:21.000000000 Z
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 21.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2023-03-30 16:22:40.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Martin Šošić
+  last_updated_on: 2023-04-05 09:33:52.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Martin Sosic
+  last_updated_on: 2021-07-23 12:45:27.000000000 Z
+- name: Netlify
+  description: Build, deploy and host your static site or app with a drag and drop
+    interface and automatic delpoys from GitHub or Bitbucket
+  website_url: https://www.netlify.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/data/Generator/templates/react-app/netlify.toml
+  detection_source: waspc/data/Generator/templates/react-app/netlify.toml
+  last_updated_by: Martin Šošić
+  last_updated_on: 2021-02-03 18:26:14.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/data/Generator/templates/Dockerfile
+  detection_source: waspc/data/Generator/templates/Dockerfile
+  last_updated_by: Martin Sosic
+  last_updated_on: 2022-12-13 10:34:59.000000000 Z
+- name: Passport
+  description: Simple, unobtrusive authentication for Node.js
+  website_url: http://passportjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://ucarecdn.com/8f3cac0e-b146-4f0f-878c-680a6671d804/
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspComplexTest-golden/waspComplexTest/.wasp/out/server/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspComplexTest-golden/waspComplexTest/.wasp/out/server/package.json
+  last_updated_by: Mihovil Ilakovac
+  last_updated_on: 2023-03-02 14:05:24.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev
+  detection_source: Repo Metadata
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package-lock.json
+  detection_source: web/package.json
+  last_updated_by: Mihovil Ilakovac
+  last_updated_on: 2023-05-23 12:29:54.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev
+  detection_source: Repo Metadata
+- name: Zod
+  description: TypeScript-first schema validation
+  website_url: https://zod.dev/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/packages/ts-inspect/package.json
+  detection_source: waspc/packages/ts-inspect/package.json
+  last_updated_by: Craig McIlwrath
+  last_updated_on: 2023-06-22 19:37:07.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.25.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  last_updated_by: Filip Sodić
+  last_updated_on: 2023-06-16 16:26:45.000000000 Z
+- name: superJSON
+  website_url: https://github.com/blitz-js/superjson
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/25051/default_e6d588b7b89872630cad4650352e935999e0d113.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Filip Sodić
+  last_updated_on: 2023-04-06 19:12:18.000000000 Z
+- name: zx
+  description: A tool for writing better scripts (By Google)
+  website_url: https://github.com/google/zx
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Bash Scripts
+  image_url: https://img.stackshare.io/service/25684/default_09d743c2ce3cd5b32e4cae363d05941d9d137dd9.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/packages/deploy/package.json
+  detection_source: waspc/packages/deploy/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2023-02-07 15:29:25.000000000 Z
+- name: json5
+  description: JSON for humans
+  package_url: https://www.npmjs.com/json5
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16645/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package-lock.json
+  detection_source: waspc/packages/ts-inspect/package.json
+  last_updated_by: Craig McIlwrath
+  last_updated_on: 2023-06-22 19:37:07.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in JSON5 via Parse Method
+    cve_id: CVE-2022-46175
+    cve_url: https://github.com/advisories/GHSA-9c47-m6qq-7p4h
+    detected_date: Dec 29
+    severity: high
+    first_patched: 1.0.2
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 8.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Filip Sodić
+  last_updated_on: 2023-04-06 19:12:18.000000000 Z
+  vulnerabilities:
+  - name: 'jsonwebtoken unrestricted key type could lead to legacy keys usage '
+    cve_id: CVE-2022-23539
+    cve_url: https://github.com/advisories/GHSA-8cf7-32gw-wr33
+    detected_date: Dec 22
+    severity: high
+    first_patched: 9.0.0
+  - name: jsonwebtoken has insecure input validation in jwt.verify function
+    cve_id: CVE-2022-23529
+    cve_url: https://github.com/advisories/GHSA-27h2-hvpr-p74q
+    detected_date: Dec 22
+    severity: high
+    first_patched: 9.0.0
+  - name: jsonwebtoken vulnerable to signature validation bypass due to insecure default
+      algorithm in jwt.verify()
+    cve_id: CVE-2022-23540
+    cve_url: https://github.com/advisories/GHSA-qwph-4952-7xr6
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken's insecure implementation of key retrieval function could lead
+      to Forgeable Public/Private Tokens from RSA to HMAC
+    cve_id: CVE-2022-23541
+    cve_url: https://github.com/advisories/GHSA-hjrf-2m68-5959
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.3.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  last_updated_by: Martin Šošić
+  last_updated_on: 2023-06-14 19:56:26.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
+  - name: Vite's `server.fs.deny` did not deny requests for patterns with directories.
+    cve_id: CVE-2024-31207
+    cve_url: https://github.com/advisories/GHSA-8jhw-289h-jh2g
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 4.5.3
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2023-03-14 18:04:51.000000000 Z
+  vulnerabilities:
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: "@mdx-js/react"
+  description: React implementation for MDX
+  package_url: https://www.npmjs.com/@mdx-js/react
+  version: 1.6.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17624/default_61a119a7701a0e8224ca0e4dce7ff951cd67972f.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: web/package.json
+  last_updated_by: Matija Sosic
+  last_updated_on: 2022-11-30 16:56:05.000000000 Z
+- name: "@prisma/client"
+  description: Prisma Client is an auto-generated, type-safe and modern JavaScript/TypeScript
+    ORM for Node.js that's tailored to your data
+  package_url: https://www.npmjs.com/@prisma/client
+  version: 4.12.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/headless-test/package-lock.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Martin Sosic
+  last_updated_on: 2023-04-07 16:15:02.000000000 Z
+- name: "@svgr/webpack"
+  description: SVGR webpack loader
+  package_url: https://www.npmjs.com/@svgr/webpack
+  version: 6.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16411/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: web/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2022-11-07 18:04:15.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.16.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  last_updated_by: Martin Šošić
+  last_updated_on: 2023-06-14 19:56:26.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 14.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  last_updated_by: Mihovil Ilakovac
+  last_updated_on: 2023-09-12 11:19:47.000000000 Z
+- name: "@types/cors"
+  description: TypeScript definitions for cors
+  package_url: https://www.npmjs.com/@types/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17290/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2023-06-19 08:49:57.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2023-06-19 08:49:57.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 29.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/packages/ts-inspect/package-lock.json
+  detection_source: waspc/packages/ts-inspect/package.json
+  last_updated_by: Craig McIlwrath
+  last_updated_on: 2023-07-07 12:21:33.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/headless-test/package-lock.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2023-06-19 08:49:57.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.33
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  last_updated_by: Mihovil Ilakovac
+  last_updated_on: 2023-09-12 11:19:47.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  last_updated_by: Mihovil Ilakovac
+  last_updated_on: 2023-09-12 11:19:47.000000000 Z
+- name: "@types/react-router-dom"
+  description: TypeScript definitions for React Router
+  package_url: https://www.npmjs.com/@types/react-router-dom
+  version: 5.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16557/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  last_updated_by: Mihovil Ilakovac
+  last_updated_on: 2023-09-12 11:19:47.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2023-06-19 08:49:57.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.48.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/packages/deploy/package-lock.json
+  detection_source: waspc/packages/deploy/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2023-02-07 15:29:25.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.40.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package-lock.json
+  detection_source: waspc/packages/deploy/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2023-02-07 15:29:25.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package-lock.json
+  detection_source: project-page/package.json
+  last_updated_by: Matija Sosic
+  last_updated_on: 2022-10-24 08:43:21.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 9.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/headless-test/package-lock.json
+  detection_source: waspc/packages/deploy/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2023-02-07 15:29:25.000000000 Z
+- name: cookie-parser
+  description: Parse HTTP request cookies
+  package_url: https://www.npmjs.com/cookie-parser
+  version: 1.4.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2022-09-20 14:51:47.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2023-06-19 08:49:57.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 12.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package-lock.json
+  detection_source: project-page/package.json
+  last_updated_by: Matija Sosic
+  last_updated_on: 2022-10-24 08:43:21.000000000 Z
+- name: helmet
+  description: Help secure Express/Connect apps with various HTTP headers
+  package_url: https://www.npmjs.com/helmet
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16584/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2022-09-16 13:55:26.000000000 Z
+- name: lodash.merge
+  description: The Lodash method `_.merge` exported as a module
+  package_url: https://www.npmjs.com/lodash.merge
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16314/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package-lock.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Mihovil Ilakovac
+  last_updated_on: 2023-03-01 16:14:14.000000000 Z
+- name: mitt
+  description: Tiny 200b functional Event Emitter / pubsub
+  package_url: https://www.npmjs.com/mitt
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18719/default_88ba18730de3c1cd8c358a23343f72c83971e808.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2023-06-19 08:49:57.000000000 Z
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2022-09-16 13:55:26.000000000 Z
+- name: prisma
+  description: Prisma is an open-source database toolkit
+  package_url: https://www.npmjs.com/prisma
+  version: 4.12.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/headless-test/package-lock.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Martin Sosic
+  last_updated_on: 2023-04-07 16:15:02.000000000 Z
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package-lock.json
+  detection_source: web/package.json
+  last_updated_by: Mihovil Ilakovac
+  last_updated_on: 2023-05-23 12:29:54.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package-lock.json
+  detection_source: project-page/package.json
+  last_updated_by: Matija Sosic
+  last_updated_on: 2022-10-24 08:43:21.000000000 Z
+- name: react-modal
+  description: Accessible modal dialog component for React.JS
+  package_url: https://www.npmjs.com/react-modal
+  version: 3.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16926/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: web/package.json
+  last_updated_by: Matija Sosic
+  last_updated_on: 2022-11-30 16:56:05.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspComplexTest-golden/waspComplexTest/.wasp/out/server/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspComplexTest-golden/waspComplexTest/.wasp/out/server/package.json
+  last_updated_by: Mihovil Ilakovac
+  last_updated_on: 2023-03-02 14:05:24.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/web-app/package.json
+  last_updated_by: Mihovil Ilakovac
+  last_updated_on: 2023-09-12 11:19:47.000000000 Z
+- name: react-syntax-highlighter
+  description: Syntax highlighting component for react with prismjs or highlightjs
+    ast using inline styles
+  package_url: https://www.npmjs.com/react-syntax-highlighter
+  version: 15.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17323/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package-lock.json
+  detection_source: project-page/package.json
+  last_updated_by: Matija Sosic
+  last_updated_on: 2022-10-24 08:43:21.000000000 Z
+- name: react-tooltip
+  description: React tooltip component
+  package_url: https://www.npmjs.com/react-tooltip
+  version: 4.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17696/default_9693d58c90f5c726ee648423687212d2a94266da.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: web/package.json
+  last_updated_by: Matija Sosic
+  last_updated_on: 2022-11-30 16:56:05.000000000 Z
+- name: react-transition-group
+  description: A react component toolset for managing animations
+  package_url: https://www.npmjs.com/react-transition-group
+  version: 4.4.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: web/package.json
+  last_updated_by: Matija Sosic
+  last_updated_on: 2022-11-30 16:56:05.000000000 Z
+- name: remark-cli
+  description: CLI to process Markdown with remark using plugins
+  package_url: https://www.npmjs.com/remark-cli
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16755/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: web/package.json
+  last_updated_by: Craig McIlwrath
+  last_updated_on: 2023-08-11 14:47:49.000000000 Z
+- name: remark-validate-links
+  description: Remark plugin to validate links to headings and files
+  package_url: https://www.npmjs.com/remark-validate-links
+  version: 12.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18530/default_00c720c5ec8a12b4c0fc580060c1d53f3b83f05c.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: web/package.json
+  last_updated_by: Craig McIlwrath
+  last_updated_on: 2023-08-11 14:47:49.000000000 Z
+- name: standard
+  description: JavaScript Standard Style
+  package_url: https://www.npmjs.com/standard
+  version: 17.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15878/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Filip Sodić
+  last_updated_on: 2022-11-24 14:03:19.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/project-page/package-lock.json
+  detection_source: project-page/package.json
+  last_updated_by: Matija Sosic
+  last_updated_on: 2022-10-24 08:43:21.000000000 Z
+- name: toml
+  description: TOML parser for Node.js
+  package_url: https://www.npmjs.com/toml
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18079/image.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/packages/deploy/package-lock.json
+  detection_source: waspc/packages/deploy/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2023-02-07 15:29:25.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 29.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/waspc/packages/ts-inspect/package-lock.json
+  detection_source: waspc/packages/ts-inspect/package.json
+  last_updated_by: Craig McIlwrath
+  last_updated_on: 2023-06-22 19:37:07.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/Huntemall/wasp-dev/blob/dev/web/package-lock.json
+  detection_source: waspc/e2e-test/test-outputs/waspBuild-golden/waspBuild/.wasp/build/server/package.json
+  last_updated_by: Shayne Czyzewski
+  last_updated_on: 2023-06-19 08:49:57.000000000 Z
